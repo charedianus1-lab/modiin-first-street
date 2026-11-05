@@ -6,7 +6,7 @@ Phone: left joystick moves. Drag right side to look. Buttons: run toggle, jump, 
 
 Keyboard: WASD/arrows move, Shift runs, Space jumps, Q kicks, F shoots, E enters/exits.
 
-Serve this directory as a static website. index.html loads v2-part*.js and decompresses the embedded HTML. No runtime CDN, backend or tracking. v2.html is the separate staging entry. game-v2.js is readable source using Three.js; assets and bundled dependencies are embedded in the compressed deployment. Concatenate the quoted part strings, base64-decode, gzip-decompress to inspect complete executable HTML.
+Serve this directory as a static website. index.html loads life-part*.js and decompresses the embedded HTML. No runtime CDN, backend or tracking. Includes 8 animated background pedestrians and 5 moving vehicles following road paths; these are simple ambient actors, not full traffic AI or destructible characters. life.html is the separate staging entry. game-v2.js is readable source using Three.js; assets and bundled dependencies are embedded in the compressed deployment. Concatenate the quoted part strings, base64-decode, gzip-decompress to inspect complete executable HTML.
 
 Map data: © OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright . geography.json is the extracted/transformed road data, offered under ODbL. Source endpoint and origin coordinates are in that file.
 
