@@ -42,3 +42,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+Map data: © OpenStreetMap contributors, ODbL 1.0.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+The transformed road-centerline extract is supplied as geography.json under ODbL 1.0.
+Additional run clip: Copyright (c) 2020 Microsoft. MIT License, as above.
+https://models.codelove.in/animations/m_run_neutral_01.glb
