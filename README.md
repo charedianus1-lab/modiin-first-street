@@ -1,15 +1,11 @@
 # הרחוב הראשון
 
-Original small mobile-browser walking prototype inspired by apartment streets in Modiin Illit. Fictional street, not a faithful map. No GTA assets or affiliation. Scope: one street, a visible animated character, touch walking and camera controls.
+Original small 3D mobile-browser walking prototype, inspired by Modiin Illit. One fictional street and a clothed animated character. No GTA assets or affiliation.
 
-Run `npm install` then `npm run build`. Serve the `public` folder with any static web server.
+Left joystick: walk. Drag right side: look. WASD/arrows on computer. Reset and fullscreen controls at bottom right.
 
-## Controls
+Serve this directory with any static web server. index.html loads the part*.js files, joins their base64 strings and decompresses the self-contained HTML using the browser gzip DecompressionStream. The complete game code and licensed assets are in that decompressed HTML, with no runtime CDN dependency. To inspect the code, concatenate the quoted part strings, base64-decode, and gzip-decompress.
 
-Left joystick: walk. Drag on the right: look. Keyboard: WASD or arrows. Reset and fullscreen buttons are at bottom right.
+Original procedural environment. Businessman 01 and idle/walk clips: Copyright (c) 2020 Microsoft, MIT. Three.js: MIT. Full notices in THIRD-PARTY-NOTICES.txt.
 
-## Assets and licensing
-
-Original procedural environment and materials. Businessman 01 and idle/walk clips are Copyright (c) 2020 Microsoft, MIT license, downloaded from models.codelove.in. Three.js is MIT licensed. Full notices in public/THIRD-PARTY-NOTICES.txt. No trackers, accounts, payment services or server backend.
-
-Deployment is self-contained in index.html. Unbundled source with embedded licensed model data is game-source.js; it imports Three.js, MIT licensed.
+Tested in a mobile-shaped browser, not on a physical phone. This is an early walking prototype, not a full GTA-style game.
