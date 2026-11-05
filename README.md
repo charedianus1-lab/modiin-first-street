@@ -1,11 +1,15 @@
-# הרחוב הראשון
+# מודיעין עילית · משחק דפדפן
 
-Original small 3D mobile-browser walking prototype, inspired by Modiin Illit. One fictional street and a clothed animated character. No GTA assets or affiliation.
+Original 3D browser-game prototype. Real OpenStreetMap road-centerline basis in Brachfeld, Modiin Illit; buildings, elevation and street furniture are approximate procedural scenery, not a surveyed replica. No GTA assets or affiliation.
 
-Left joystick: walk. Drag right side: look. WASD/arrows on computer. Reset and fullscreen controls at bottom right.
+Phone: left joystick moves. Drag right side to look. Buttons: run toggle, jump, kick, shoot, vehicle enter/exit. Approach the blue car to enter. Joystick steers and accelerates/reverses while driving. Shooting is non-graphic and can hit yellow practice targets.
 
-Serve this directory with any static web server. index.html loads the part*.js files, joins their base64 strings and decompresses the self-contained HTML using the browser gzip DecompressionStream. The complete game code and licensed assets are in that decompressed HTML, with no runtime CDN dependency. To inspect the code, concatenate the quoted part strings, base64-decode, and gzip-decompress.
+Keyboard: WASD/arrows move, Shift runs, Space jumps, Q kicks, F shoots, E enters/exits.
 
-Original procedural environment. Businessman 01 and idle/walk clips: Copyright (c) 2020 Microsoft, MIT. Three.js: MIT. Full notices in THIRD-PARTY-NOTICES.txt.
+Serve this directory as a static website. index.html loads v2-part*.js and decompresses the embedded HTML. No runtime CDN, backend or tracking. v2.html is the separate staging entry. game-v2.js is readable source using Three.js; assets and bundled dependencies are embedded in the compressed deployment. Concatenate the quoted part strings, base64-decode, gzip-decompress to inspect complete executable HTML.
 
-Tested in a mobile-shaped browser, not on a physical phone. This is an early walking prototype, not a full GTA-style game.
+Map data: © OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright . geography.json is the extracted/transformed road data, offered under ODbL. Source endpoint and origin coordinates are in that file.
+
+Original procedural environment. Microsoft Businessman 01 and idle/walk/run clips: Copyright (c) 2020 Microsoft, MIT. Three.js: MIT. See THIRD-PARTY-NOTICES.txt.
+
+Tested at mobile-shaped sizes, not on a physical phone. Early prototype, not a full GTA-style game.
